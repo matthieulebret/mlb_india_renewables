@@ -18,7 +18,7 @@ import networkx as nx
 st.set_page_config('Indian renewables market',layout='wide',initial_sidebar_state="collapsed")
 
 
-im1,im2,im3 = st.beta_columns(3)
+im1,im2,im3 = st.columns(3)
 with im1:
     st.image('https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWF8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60')
 with im2:
